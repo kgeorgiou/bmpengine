@@ -5,7 +5,7 @@
 Useful information on bitmap file format:
 http://en.wikipedia.org/wiki/BMP_file_format
 
-##Get Started
+##Getting Started
 
 Once you have the source code,
 while in the bmpengine directory
