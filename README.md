@@ -71,7 +71,7 @@ Each .c file (except *main.c* and *test.c*) comes with it's driver that carries 
 
 **You can test each module in the following manner:**
 
-(Let's crash test gray.c for example)
+Sample test for the grayscale functionality:
 ```
 $gcc -DDEBUG test.c gray.c -o graytest
 $./graytest
