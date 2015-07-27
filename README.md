@@ -71,7 +71,7 @@ Each .c file (except *main.c* and *test.c*) comes with it's driver that carries 
 
 **You can test each module in the following manner:**
 
-(Let's crush test gray.c for example)
+(Let's crash test gray.c for example)
 ```
 $gcc -DDEBUG test.c gray.c -o graytest
 $./graytest
