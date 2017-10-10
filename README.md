@@ -1,28 +1,28 @@
-#bmpengine
+# bmpengine
 
-###A library for editing 24-bit bitmap images.
+### A library for editing 24-bit bitmap images.
 
 Useful information on bitmap file format:
 http://en.wikipedia.org/wiki/BMP_file_format
 
-##Getting Started
+## Getting Started
 
 Once you have the source code,
 while in the bmpengine directory
 
-###__Compilation__ (Makefile's parameters)
+### Compilation (Makefile parameters)
 
 ```
 $make
 ```
 
-###__Run__
+### Run
 
 ```
 $./bmpengine
 ```
 
-###__Commands__
+### Commands
 
 **Display a menu with the available commands**
 ```
@@ -59,17 +59,17 @@ $./bmpengine -right90 img1.bmp img2.bmp ... imgn.bmp
 $./bmpengine -gray img1.bmp img2.bmp ... imgn.bmp
 ```
 
-###__Remove object files and executables__
+### Remove object files and executables
 ```
 $make clean
 ```
 
 
-##Testing
+## Testing
 
 Each .c file (except *main.c* and *test.c*) comes with it's driver that carries out some checks on the file's functions by covering most of the cases the function will have to handle.
 
-**You can test each module in the following manner:**
+**Test each module in the following manner:**
 
 (Sample test for the grayscale functionality)
 ```
@@ -78,9 +78,9 @@ $./graytest
 ```
 
 
-##Documentation
+## Documentation
 
-You can build the project's documentation using Doxygen (http://www.stack.nl/~dimitri/doxygen/)
+Build the project's documentation using Doxygen (http://www.stack.nl/~dimitri/doxygen/)
 
 **Using the Makefile and the .doxyfile**
 ```
